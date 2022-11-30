@@ -1,0 +1,29 @@
+========= Floating ads using pure css ==========
+
+-----[HTML]----
+
+<!--[Floating ads (HTML)]-->
+<b:if cond='data:view.isPost'>
+<div id="floating_ads_container">
+<div id="floating_ads_wrap">
+<div id="floating_ads_bottom_ad">
+<!--[ads-code-here]-->
+  <img src="https://s0.2mdn.net/dfp/450912/46673592/1483947788497/Cando/cando_09jan.jpg" border="0" width="240" alt="" class="img_ad" style="display:inline-block;width:300px;height:200px"/>
+<!--[ads-code-here]-->
+  <div id="floating_ads_bottom_close">
+<a href="#" onclick="document.getElementById('floating_ads_container').style.display='none';return false;" id="floating_ads_bottom_textcss_x">×</a>
+</div>
+  </div></div></div></b:if>
+<!--[Floating ads (HTML)]-->
+
+------CSS--------
+<!--[Floating ads (CSS)]-->
+<style>
+#floating_ads_container {position: fixed;bottom: 2px;width: 100%; -webkit-transition: width 1s, height 1s; transition: width 1s, height 1s;z-index:999;} #floating_ads_wrap {text-align: center;} #floating_ads_bottom_ad {display:inline-block;position:relative} #floating_ads_bottom_close {position: absolute;top:-20px;display:block; font-size: 20px; font-weight: bold; text-decoration: none; border-radius:50%; cursor: pointer; text-align: center; height: 25px; width:25px; line-height: 25px; background-color: #ccc;z-index:5; color: #fff! important; right:-10px;}
+</style>
+<!--[Floating ads (CSS)]-->
+
+<!--[add this above]-->
+ </head>
+-----------
+@anutrickz
