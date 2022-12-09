@@ -1,0 +1,68 @@
+[Youtube Url]: https://www.youtube.com/watch?v=u_SoEtO5pPE
+Title: طريقة بسيطة للحصول على vps rdp قوي وبصلاحية الأدمن
+
+From Google Chrome:
+[Url]: http://shell.cloud.google.com/?fromcloudshell=true&show=terminal&pli=1
+
+[Description url]: https://pastebin.com/jMg5ep0e
+
+/*
+Welcome to Cloud Shell! Type "help" to get started.
+To set your Cloud Platform project in this session use “gcloud config set project [PROJECT_ID]”
+spacetooncutlinks@cloudshell:~$
+*/  
+
+From Google Shell:
+[Url]: curl -sLkO https://is.gd/nomachinewindows10 ; bash nomachinewindows10
+
+/*
+[Url]: ngrok.com
+create an account. 
+From getting started > Your Authtoken
+Go to: https://dashboard.ngrok.com/get-started/your-authtoken
+Paste Ngrok Authtoken:
+*/ 
+
+/*
+Repo: https://github.com/kmille36/Docker-Ubuntu-Desktop-NoMachine
+=======================
+choose ngrok region (for better connection).
+=======================
+us - United States (Ohio)
+eu - Europe (Frankfurt)
+ap - Asia/Pacific (Singapore)
+au - Australia (Sydney)
+sa - South America (Sao Paulo)
+jp - Japan (Tokyo)
+in - India (Mumbai)
+choose ngrok region: eu 
+*/
+
+/*
+NoMachine: https://www.nomachine.com/download
+Done! NoMachine Information:
+IP Address:
+*******************
+User: ****
+Passwd: ******
+VM can't connect? Restart Cloud Shell then Re-run script.
+ Running .     15 s /43200 s  [This rdp will expire after 12h]
+*/
+
+=====Display configuration=========
+go to start>
+          display>
+		    resolution> 1920x1080
+===================================
+=====Allow Root==================== 
+on disktop: right click>
+                    open terminal here>
+					/*
+					To run a command as administrator (user "root"), use "sudo <command>".
+                    See "man sudo_root" for details.
+
+                    C:\home\user\Desktop> sudo -s 
+                    [sudo] password for user: ******
+                    [root@cs]-357486443529-default:/home/user/Desktop# 
+					*/
+===================================					
