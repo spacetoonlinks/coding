@@ -1,3 +1,4 @@
+<!--[sitemap]-->
 sitemap.xml
 atom.xml?redirect=false&start-index=1&max-results=500
 rss.xml
@@ -5,8 +6,9 @@ feeds/comments/default
 feeds/posts/default
 feeds/posts/summary
 atom.xml
+<!--[sitemap]-->
 
-
+<!--[robots.txt]-->
 User-agent: Mediapartners-Google
 Disallow: 
 
@@ -15,3 +17,10 @@ Disallow: /search
 Allow: /
 
 Sitemap: https://www.elsabagh7.com/sitemap.xml
+<!--[robots.txt]-->
+
+
+
+<!--[فتح أداة اختبار ملف | Test robots.txt]-->
+url: https://www.google.com/webmasters/tools/robots-testing-tool?utm_source=support.google.com/webmasters/&utm_medium=referral&utm_campaign=%206062598
+<!--[فتح أداة اختبار ملف | Test robots.txt]-->
