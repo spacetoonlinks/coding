@@ -24,3 +24,11 @@ Sitemap: https://www.elsabagh7.com/sitemap.xml
 <!--[فتح أداة اختبار ملف | Test robots.txt]-->
 url: https://www.google.com/webmasters/tools/robots-testing-tool?utm_source=support.google.com/webmasters/&utm_medium=referral&utm_campaign=%206062598
 <!--[فتح أداة اختبار ملف | Test robots.txt]-->
+
+
+
+<!--[Enable custom robots header tags]-->
+Home page tags { all,}
+Archive and search page tags { noindex, nofollow, noodp,}
+Post and page tags { all, noodp,}
+<!--[Enable custom robots header tags]-->
