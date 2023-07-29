@@ -1,0 +1,39 @@
+<html>
+    <head>
+
+      <title>Aliexpress Advert... left side bar</title>
+
+
+  <style type="text/css">
+    /* General styles */
+
+  </style>
+
+    </head>
+    <body>
+
+  <!-- Your existing HTML code -->
+<div style="display: block; z-index: 1000000;">
+  <div class="drogue-poplayer-modal" style="width: 80px; height: 96px; position: fixed; bottom: 20%; left: 0px; z-index: 10000; display: flex; flex-direction: column; align-items: center; background: rgba(255, 255, 255, 0.9); border-width: 0.5px; border-style: solid; border-color: rgba(0, 0, 0, 0.1); border-bottom-right-radius: 8px; border-top-right-radius: 8px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 16px 0px;">
+    <img class="pop-picture" src="https://ae01.alicdn.com/kf/Se5f9bd46f444432e9450a6a6f2931083f/200x200.gif" alt="pop-picture" style="display: block; width: 64px; height: 64px; overflow: hidden; margin: 10px 12px 0px;">
+    <img class="close-btn" src="https://ae01.alicdn.com/kf/S4583437336344f2e851376f8f829a11dS/32x32.png" alt="close" style="width: 16px; height: 16px; margin-top: 4px;">
+  </div>
+</div>
+  <!-- Your existing HTML code -->
+
+<!-- Add the following JavaScript code -->
+<script>
+  // Function to close the modal when close-btn is clicked
+  function closeDroguePoplayerModal() {
+    const modal = document.querySelector('.drogue-poplayer-modal');
+    modal.style.display = 'none';
+  }
+
+  // Attach click event listener to the close-btn
+  const closeButton = document.querySelector('.close-btn');
+  closeButton.addEventListener('click', closeDroguePoplayerModal);
+</script>
+<!-- Add the following JavaScript code -->
+
+    </body>
+</html>
