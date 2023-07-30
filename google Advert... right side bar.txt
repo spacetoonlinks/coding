@@ -1,0 +1,18 @@
+    <div id="lm-slideup" style="box-sizing: border-box; display: block; position: fixed; z-index: 2147483647; width: 310px; height: 110px; padding: 5px; right: 15px; top: 75px; border-radius: 10px; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px; transition: all 375ms ease 0s; animation-name: orquidea-slideup; animation-duration: 1s; animation-fill-mode: both; animation-delay: 2s;">
+        <div style="display:block;position:relative;">
+            <div style="position:relative;width:300px;height:100px;margin:auto;">
+                <div id="gpt-passback-13" style="width: 344px !important; max-width: 344px !important; padding-left: 0px !important; margin-right: 0px !important; z-index: 0 !important; position: relative !important;" data-google-query-id="CIDDtfrWtYADFUvE1Qod6FADgw">
+                    <div id="google_ads_iframe_/22817592524/forexrw7.com_6__container__" style="border: 0pt none; display: inline-block; width: 320px; height: 100px;">
+                        
+                        <!--ad code-->
+                        <iframe frameborder="0" src="https://9d66139c1f5f689395ae6e3e2ef83ace.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/22817592524/forexrw7.com_6" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="320" height="100" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="8" style="border: 0px; vertical-align: bottom;" data-load-complete="true">   
+                        </iframe>
+                        <!--ad code-->
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="position: absolute;right:0;bottom:0;width:20px;padding:3px;background:rgba(255,255,255,.95);z-index:2"><a href="https://lord-media.com" target="_blank" rel="noreferrer"><img src="https://i.servimg.com/u/f63/19/35/39/93/tm/27743112.jpg" style="display: block; width: 100% !important; height: auto"></a></div>   <span style="display:block;background:#fff;padding:3px 5px;margin:0;position:absolute;top:0;right:0;cursor:pointer;color:#666;font:bold 13px/10px Arial,Helvetica,sans-serif;" onclick="document.getElementById(&quot;lm-slideup&quot;).remove();">x</span>
+                    </div>
+                </div>
