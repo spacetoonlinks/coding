@@ -1,0 +1,40 @@
+    //PUT THE JAVASCRIPT CODE INSIDE THE </HEAD> TAG.
+
+<!--Referring URL(.JAVASCRIPT)-->
+<script>
+  // Get the referring URL
+  var referringURL = document.referrer;
+
+  // Array of allowed URLs
+  var allowedURLs = [
+    "https://short-jambo.com",
+    "https://shahidlinks.blogspot.com",
+    "https://duckduckgo.com",
+    // Add more allowed URLs as needed
+  ];
+
+  // Check if the referring URL is in the allowed URLs array
+  if (allowedURLs.some(url => referringURL.includes(url))) {
+    // Do nothing, it's a valid referring URL
+  } else {
+    // Redirect to Google after a 5-second delay
+    setTimeout(function () {
+      window.location.href = "https://www.google.com";
+    }, 5000); // 5000 milliseconds = 5 seconds
+  }
+</script>
+<!--Referring URL(.JAVASCRIPT)-->
+
+
+
+
+/*
+
+If you want to check if the referring URL matches any one of multiple allowed URLs, 
+you can modify the script to use an array of allowed URLs and check 
+if the referring URL is in that array.  
+This javascript code is used to check if the referring URL includes any of the allowed URLs in the array. 
+If the condition is met, the script does nothing. Otherwise, it redirects to Google after a 5-second delay. 
+You can easily add or remove URLs from the allowedURLs array as needed.
+
+*/
