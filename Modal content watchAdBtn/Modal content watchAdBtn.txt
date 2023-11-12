@@ -24,7 +24,7 @@
     <!-- Modal content -->
     <div class='modal-content'>
       <p>عزيزي الزائر لاستمرار التصفح يجب مشاهدة فيديو الرعاية 😍</p>
-      <input class='btn1' id='watchAdBtn' onclick='closeModal()' type='button' value='شاهد الان'/> 
+      <input class='btn1' id='watchAdBtn' onclick='closeModal()' style='align-content: center;' type='button' value='شاهد الان'/> 
     </div>
   </div>
   <!--Modal content watchAdBtn(HTML)-->
