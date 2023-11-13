@@ -1,0 +1,25 @@
+<!--iframebanner(CSS)-->
+<style>
+  .iframebanner {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.iframebanner-468x60 .iframebanner-inner {
+    max-width: 468px;
+}
+.iframebanner .iframebanner-inner {
+    margin: 0 auto;
+}
+</style>
+<!--iframebanner(CSS)-->
+
+
+
+<!--iframebanner(HTML)-->
+<div class="iframebanner iframebanner-468x60">
+            <div class="iframebanner-inner">
+                <iframe src="https://www.spacetoonlinks.info/" title="Name site"></iframe>
+
+            </div>
+        </div>
+<!--iframebanner(HTML)-->
