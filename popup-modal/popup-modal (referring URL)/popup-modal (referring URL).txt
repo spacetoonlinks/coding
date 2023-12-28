@@ -1,0 +1,62 @@
+  <!--popup-modal(.css)-->
+  <link href='https://rawcdn.githack.com/spacetoonlinks/hosting/5f5d7ed263bc4455770d13a03d8f97ae883c6144/popup-modal.css' rel='stylesheet'/>
+  <!--popup-modal(.css)--> 
+  
+</head>
+
+
+
+
+<!--popup-modal (referring URL)-->  
+<script>
+document.addEventListener(&#39;DOMContentLoaded&#39;, function () {
+    // Get the referring URL
+    var referringURL = document.referrer;
+
+    // Check if the referring URL is &#39;https://try2link.com/&#39;
+    if (referringURL !== &#39;https://try2link.com/&#39;) {
+        // Add the modal HTML directly using JavaScript
+        document.body.innerHTML += `
+  
+            <!--popup-modal (.html)-->
+<div class='modal' data-type='reward' id='modal'>
+    <div class='modalDialog'>
+        <p id='modalMessage'> &#160;عزيزي الزائر لاستمرار المشاهدة دون انقطاع يرجى تخطي الإعلانات في موقع شاهد لينكس والوصول إلى موقعنا بشكل صحيح لتجربة أفضل <img alt='😍' class='emoji' draggable='false' role='img' src='https://s.w.org/images/core/emoji/14.0.0/svg/1f60d.svg'/></p>
+        <span class='rewardButtons'>
+            <input id='watchAdButton' type='button' value='Next'/>
+        </span>
+    </div>
+</div>
+<!--popup-modal (.html)-->
+  
+        `;
+
+        // Get the button element by its ID
+        var watchAdButton = document.getElementById(&#39;watchAdButton&#39;);
+
+        // Add a click event listener to the button
+        watchAdButton.addEventListener(&#39;click&#39;, function () {
+            // Get the modal element by its ID
+            var modal = document.getElementById(&#39;modal&#39;);
+
+            // Hide the modal by setting its display property to &#39;none&#39;
+            modal.style.display = &#39;none&#39;;
+        });
+    }
+});
+</script>
+<!--popup-modal (referring URL)--> 
+  
+<!--popup-modal-close (.JS)-->
+<script type='text/javascript'>
+  document.addEventListener(&#39;DOMContentLoaded&#39;, function () {
+    var watchAdButton = document.getElementById(&#39;watchAdButton&#39;);
+    watchAdButton.addEventListener(&#39;click&#39;, function () {
+        var modal = document.getElementById(&#39;modal&#39;);
+        modal.style.display = &#39;none&#39;;
+    });
+});
+</script>
+<!--popup-modal-close (.JS)-->
+
+</body>
