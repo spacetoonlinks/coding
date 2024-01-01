@@ -1,0 +1,33 @@
+<!--popup-modal-2 (referring URL)-->  
+<script>
+document.addEventListener(&#39;DOMContentLoaded&#39;, function () {
+    // Get the referring URL
+    var referringURL = document.referrer;
+
+    // Check if the referring URL is &#39;https://try2link.com/&#39;
+    if (referringURL !== &#39;https://try2link.com/&#39;) {
+        // Create a modal container
+        var modalContainer = document.createElement(&#39;div&#39;);
+        modalContainer.innerHTML = `
+            <!--[Floating header Slide in Promotional Banner Using Pure html]-->
+            <div class='at-banner' id='at86676'>
+              <div class='at-banner__container'>
+                <div class='at-banner__text'>     
+                 <b>عزيزي الزائر لاستمرار المشاهدة دون انقطاع يرجى تخطي الإعلانات في موقع شاهد لينكس والوصول إلى موقعنا بشكل صحيح لتجربة أفضل</b>
+                </div>   
+              </div>
+              <div class='AT-banner-close' onclick='document.getElementById(&quot;at86676&quot;).style.display=&quot;none&quot;'>
+                <svg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z'/>
+                </svg>
+              </div>
+            </div>
+            <!--[Floating header Slide in Promotional Banner Using Pure html]-->
+        `;
+
+        // Append the modal container to the body
+        document.body.appendChild(modalContainer);
+    }
+});
+</script>
+<!--popup-modal-2 (referring URL)-->
